@@ -1,0 +1,16 @@
+{
+  "name": "cinemarama-watchlist",
+  "version": "1.0.0",
+  "description": "Criação de API para watchlist do projeto Cinemarama\r >Tutu tem que fazer a parte dele",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
