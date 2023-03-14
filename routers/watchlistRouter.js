@@ -4,6 +4,7 @@ const watchlistServices = require('../services/watchlistDataBaseService')
 
 router.post('/', function(req, res) {
     const user = req.body.username
+    watchlistServices.validarUsuario (user)
     watchlistServices.criarWatchlist (user)
     return res.send(user)
 })
