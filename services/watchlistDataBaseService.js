@@ -2,8 +2,11 @@ var watchlistUser = []
 
 function validarUsuario (user){
     for (i = 0; i < watchlistUser.length; i++){
-        if(user = watchlistUser){
-            console.log('Este usuário já tem uma watchlist')//encerra a watchlist
+        if(user = watchlistUser[i]){
+            return res.send('Este usuário já tem uma watchlist')//encerra a watchlist
+        }
+        else {
+            return next()
         }
     }
 }
